@@ -102,6 +102,10 @@ Body {
   border-width: 1px;
 }
 
+.get h3 {
+  font-weight: normal;
+}
+
 div.signup {
  margin-left: 0;
  text-align: left;
