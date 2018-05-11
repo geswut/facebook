@@ -1,28 +1,63 @@
+html {
+  font-family: 'Source Sans Pro';
+  margin: 0;
+}
+
 section {
   background-color: #4267B2;
 }
 
-.head {
-
-
+Body {
+  background-color: #E0E0E0;
+  margin: 0;
 }
 
 
 .top {
   background-color: #4267B2;
-  padding: 30px;
+  padding: 20px;
   display: inline-block;
 
 }
 
-a {
+.top a {
   display: inline-block;
   color: #fff;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 45px;
   margin: 0 200px;
   text-decoration: none;
   float: left;
+  padding: 0 20px;
+
+}
+
+.phone {
+  margin: 0 65px 0 0;
+  float: left;
+}
+
+.first h2 {
+  margin: 0;
+  width: 50%;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  top: 230px;
+}
+
+.signup {
+  margin: 0 200px 0 0;
+  display: inline-block;
+  text-align: left;
+  float: right;
+}
+
+
+
+.first h2 {
+  margin-top: 80px;
+  font-size: 40px;
 
 }
 
@@ -31,49 +66,133 @@ a {
   margin: 35px 200px;
   padding: 0 10px;
   border-radius: 20px;
-}
-
-.click {
-  background-color: #281FD1;
-  border-radius: 2px;
-  border: none;
   color: #fff;
 
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-.col-6 {
-  text-align: center;
-  display: inline-block;
+.box a {
+  float: right;
+  text-decoration: none;
+  color: #C5EDFA;
+  margin-right: 100px;
 }
+
+.click {
+  background-color: #3655B3;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: .5px;
+  border-color: black;
+  padding: 3px 7px;
+  margin: auto 20px;
+  color: #fff;
+
+}
+
+.click:hover {
+  background-color: #17389C;
+}
+
 .get{
   background-color: #F5FABE;
-  padding: 6px;
-  margin: 15px 0;
-  border-color: black;
+  padding: 0 10px;
+  margin: 7px 0;
+  border-color: gray;
   border-style: solid;
+  border-width: 1px;
 }
 
-.signup {
- margin: 0 50%;
- content: 20px;
+div.signup {
+ margin-left: 0;
+ text-align: left;
 
 }
 
-#sec {
+
+.signup input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.number {
+  width: 340px;
+}
+
+.new {
+  width: 340px;
+}
+
+.signup h2 {
+  margin: 10px 0 0 0;
+}
+
+.birthday input {
+  width: 35px;
+  border-radius: 0;
+  border-style: solid;
+  margin: 0;
+}
+
+.gender input {
+  margin: 3px 0 0 0;
+}
+
+.gender label {
+  margin: 3px 20px 0 0;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+.first h3 {
+  font-size: 20px;
+  margin: 50px 0 0 100px;
+  line-height: 30px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+.first img {
+  padding-right: 10px;
+}
+
+.sign button {
+  background-color: Green;
+  color: #fff;
+  border-radius: 5px;
+  border: solid gray;
+  border: 2px;
+  padding: 10px 40px;
+  font-size: 20px;
+}
+
+.sign button:hover {
+  opacity: 100;
+  background-color: #289E13;
+}
+
+.footer li {
+  list-style: none;
   display: inline-block;
-  font-size: 10px;
-  content: 100px 500px;
+  padding: 10px;
+}
+
+.footer ul {
+  background-color: #fff;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  margin: 150px 0 0 0;
+}
+
+.hr {
+  padding: 0 400px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  font-size: 12px;
 }
